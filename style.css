@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color:white;
+    font-family: Inter;
+}
+
+.mainContainer {
+    width: 50%;
+    height: 712;
+    top: 154px;
+    left: 198px;
+    /* border: 1px solid #FFFFFF */
+    margin:150px auto; 
+}
+
+.signupform {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.inputField {
+    color:white;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    line-height: normal;
+    padding:10px;
+}
+
+#Student {
+    width: 17;
+    height: 17;
+    top: 656px;
+    left: 202px;
+    border-width: 1px;
+    border-radius: 1000px;
+    border: 1px solid white;
+}
+
+#Employee {
+    width: 17;
+    height: 17;
+    top: 656px;
+    left: 383px;
+    border-width: 1px;
+    border-radius: 1000px;
+    border: 1px solid white;
+}
+.checkboxContainer {
+    width: 21;
+    height: 21;
+    top: 713px;
+    left: 198px;
+    border-width: 1px;    
+}
+
+.submitBtn {
+    width:100px;
+    height:40px;
+    text-align: center;
+    margin-top: 40px;
+}
